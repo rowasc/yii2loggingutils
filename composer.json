@@ -1,0 +1,25 @@
+{
+    "name": "rowasc/yii2loggingutils",
+    "description": "A very basic logging utility class. Designed to be used as a trait so you can use a default category depending on the class you are at .",
+    "type": "yii2-extension",
+    "require": {
+        "yiisoft/yii2": "@stable"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "^2.0@dev",
+        "codeception/codeception": "^2.1@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Romina Suarez",
+            "email": "rowasc@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "rowasc\\components\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
